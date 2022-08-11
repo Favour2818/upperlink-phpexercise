@@ -56,7 +56,7 @@
                         $itemLength = count($data[$i]);
                         $singleRow = "";
                         $lastIndex = $itemLength - 1;
-                        for ($f = 0; $m<$itemLength; $++) {
+                        for ($f = 0; $f<$itemLength; $f++) {
                             if ($f === 0) {                 // check if 1st column and change date format if true
                                 $arrDate = $data[$i][$f];
                                 $arrDate = explode('/', $arrDate); // Split string
